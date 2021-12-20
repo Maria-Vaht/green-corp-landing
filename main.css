@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
@@ -111,33 +111,4 @@ section {
 .form p {
   font-size: 18px;
   opacity: 0.65;
-} */
-
-/* .container {
-  width: 100%;
-}
-
-img {
-  width: 30em;
-  height: 100vh;
-  
-} */
-
-section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  height: 120px;
-  background: beige;
-}
-
-div {
-  height: 60px;
-  background: cyan;
-  margin: 5px;
-}
-
-.div_1 {
-  align-self: flex-start;
-  justify-self: flex-start;
-}
+} 

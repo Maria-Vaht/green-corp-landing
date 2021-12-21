@@ -80,6 +80,10 @@ section {
   max-width: 550px;
 }
 
+.about__images {
+  display: flex;
+}
+
 .about__image {
   width: 500px;
 }

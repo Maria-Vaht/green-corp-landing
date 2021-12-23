@@ -50,7 +50,7 @@ button:hover {
 
 section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding-top: 115px;
   padding-bottom: 115px;

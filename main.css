@@ -48,7 +48,15 @@ button:hover {
   box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
 
+.orb-canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
 .about {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;

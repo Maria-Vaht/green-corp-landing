@@ -3,7 +3,7 @@ body {
   color: #213053;
   margin: 0;
 }
- 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
   color: #213053;
 }
- 
+
 header a {
   font-size: 15px;
   font-weight: 600;
@@ -72,7 +72,7 @@ button:hover {
   padding-bottom: 115px;
   background: url('img/back.png') no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .about h1 {
@@ -100,7 +100,7 @@ button:hover {
 .about__image {
   width: 500px;
 }
- 
+
 @keyframes rotation {
   100% {
     transform: rotate(360deg);
@@ -129,7 +129,7 @@ button:hover {
   padding: 35px 40px 25px 40px;
   background-color: #FFFFFF;
   border: 1px solid #D9E4E6;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .card__logo {
@@ -225,11 +225,11 @@ button:hover {
 }
 
 .promo__image {
-  background-image: url(img/promo.jpg); 
+  background-image: url(img/promo.jpg);
   width: 50%;
   background-size: cover;
   background-position: center;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
 .promo__right {
@@ -251,8 +251,8 @@ button:hover {
 }
 
 .promo__text p::before {
-  content: "";  
-  display: inline-block;   
+  content: "";
+  display: inline-block;
   background-color: #ec6b29;
   border-radius: 50%;
   height: 10px;
@@ -307,7 +307,7 @@ button:hover {
 .form p {
   font-size: 18px;
   opacity: 0.65;
-} 
+}
 
 .form form {
   display: grid;
@@ -321,7 +321,8 @@ button:hover {
   margin-bottom: 15px;
 }
 
-.form input, .form select {
+.form input,
+.form select {
   font-size: 18px;
   color: #213053;
   height: 60px;
@@ -445,7 +446,8 @@ footer {
     margin-right: 0px;
   }
 
-  .features__feedback-left h2, .features__box h3 {
+  .features__feedback-left h2,
+  .features__box h3 {
     font-size: 36px;
   }
 
@@ -483,7 +485,7 @@ footer {
   footer {
     padding: 50px 10px;
   }
-  
+
   .footer__container {
     flex-direction: column;
   }

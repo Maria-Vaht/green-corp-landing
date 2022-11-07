@@ -79,10 +79,6 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
 addSmoothScroll(document.querySelector(".more-button"));
 
 
-function handleSubmit(e) {
-  e.preventDefault()
-}
-
 document.querySelector(".form__block").addEventListener("submit", function handleSubmit(event) {
   event.preventDefault()
 })
